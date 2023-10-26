@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+}
+
+#Btn-Add {
+    position: absolute;
+    left: 85pc;
+    top: 35pc;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Title {
+    border: 0;
+}
+
+.Details {
+    margin: 20px 0px;
+}
+.Description {
+    height: 10pc;
+}
+#Btn_save{
+    margin: 0px 10pc;
+}
+
+#Col {
+    margin: 10px 0px;
+}
+.Oper {
+    justify-content: space-between;
+}
+.Edit_Title , .Edit_Details {
+    margin: 10px 0px;
+}
+#Btn-Save{
+    margin: 2pc 20pc;
+}
+.Edit_Details{
+    height: 10pc;
+}
+#Btn_Edit {
+    margin: 2pc 20pc;
+}
+
+.Time{
+
+}
+.getTime{
+    margin: -10px 0px;
+}
+#Oper {
+    position: absolute;
+    left: 20pc;
+}
+.Card {
+    margin: 30px 0px;
+    height: 8pc;
+}
+.Time {
+    display: flex;
+    justify-content: space-between;
+}
+#Col {
+    width: 32%;
+}
+#Cor1 {
+    position: absolute;
+    left: 22.5pc;
+}
+@media (max-width:433px) {
+    #Col {
+        width: 98%;
+    }
+    #Oper {
+        left: 18pc;
+    }
+    #Btn-Add {
+    position: absolute;
+    top: 39pc;
+    left: 17pc;
+    }
+}
